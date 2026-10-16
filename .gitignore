@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# Secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Generated reports (a curated sample lives in examples/)
+outputs/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
